@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+
+
+<head>
+    <title>
+        Fender Guitar
+    </title>
+   <style>
+        /* Styling for blinking text */
+        #blink {
+            font-size: 20px;
+            font-weight: bold;
+            font-family: sans-serif;
+        }
+        /* Styling for body */
+        body {
+            color: white;
+
+ /* Background */
+            background-image: url('background.jpg');
+            background-repeat: repeat;
+        }
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px; /* Space between the images */
+}
+.image-box {
+    display: flex;
+    flex-direction: column; /* Stack image and text vertically */
+    align-items: center;    /* Center both image and text horizontally */
+}
+img {
+    display: block; /* Removes extra space below the image */
+    margin-bottom: 10px; /* Adds space between image and text */
+}
+
+figcaption {
+    text-align: center;  /* Center the caption */
+    color: white;        /* Ensure the text is white */
+}
+    </style>
+</head>
+
+
+
+
+<body>
+<font size=“50”> 
+
+<!-- <p>Blinking Text</p> -->
+<p id="blink" style= "font-size: 40px; margin-left: 30px;">
+        Fender Guitar
+    </p>
+    <script type="text/javascript">
+        let blink =
+            document.getElementById('blink');
+
+        setInterval(function () {
+            blink.style.opacity =
+                (blink.style.opacity == 0 ? 1 : 0);
+        }, 1000); 
+    </script>
+</font>
+
+
+
+
+<!-- <p>Home Page Heading</p> -->
+<h1 style = "color: red; font-family: Impact, sans-serif; font-size: 70px; text-align: right; margin-top: .25px; margin-right: 50px;"> 
+Home Page 
+</h1>
+
+<!-- <p>Fender Logo</p> -->
+<img src="fenderlogo.jpeg" alt="Fender Logo" width="300" height="200" style= "margin-left: 30px; border: 8px solid #fc0303;">
+
+
+
+
+<!-- <p>About Page Link</p> -->
+<a href="About/about.html" style="text-decoration: none; color: white;">
+    <p style= "margin-left: 30px; font-size: 30px;"><u>About</u></p>
+</a>
+
+<!-- <p>Other Page Links and Pictures</p> -->
+<div class="image-container">
+    <div class="image-box">
+        <img src="newspaper.jpeg" width="200" height="200" style= "border: 8px solid #fcce03;">
+        <figcaption><a href="WhatsNew/whatsnew.html" style= "font-size: 20px; text-decoration: none; color: white;"><u>What's New</u></a></figcaption>
+    </div>
+    <div class="image-box">
+        <img src="shoppingbag.jpeg" width="200" height="200" style= "border: 8px solid #079c05;">
+        <figcaption><a href="Shop/shop.html" style="font-size: 20px; text-decoration: none; color: white;"><u>Shop</u></a></figcaption>
+    </div>
+    <div class="image-box">
+        <img src="guitar.jpeg" width="200" height="200" style= "border: 8px solid #021ff5;">
+        <figcaption><a href="Musicians/musicians.html" style= "font-size: 20px; text-decoration: none; color: white;"><u>See Who's Playing Fender</u></a></figcaption>
+    </div>
+    <div class="image-box">
+        <img src="verticalguitar.jpeg" width="300" height="400" style= "margin-left: 70px; border: 8px solid #fc3d03;">
+    </div>
+</div>
+
+
+
+
+<!-- <p>Hit Counter</p> -->
+<br>
+Visitors:
+<a href="https://www.freecounterstat.com" title="website counter code"><img src="https://counter6.optistats.ovh/private/freecounterstat.php?c=5214ha7cs3qurqet2d8je564nlfgcpx9" border="0" title="website counter code" alt="website counter code"></a>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<p style= "font-size: 15px;"> 
+This website is fair use and is for educational purposes and non-commercial use only. Any and all copyrights and trademarks belong to their respective owners and no association with these brands or persons pictured is being claimed.
+</p>
+
+</body>
+
+
+</html>
+ 
